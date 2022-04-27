@@ -26,3 +26,9 @@ My website is pretty simple to use because there aren't too many interactive ele
 External libraries:
 
 I used CSS animations to add more interesting elements to my portfolio. I decided on using animations because they were simpler but had a wide range of uses, and even the simplest animations added a lot of polish to the website. I used them for all of my hover states, and that included using opacity, grayscale filtering, and skewing the text. I think it adds to my website because my concept was to start with black/white and then when you hover over an element, it would become colorful, which feels dynamic and exciting. It also makes my portfolio feel more professional and clean overall. The only changes I made to my prototype were adding in more content, changing where the button on my project pages was, and making my social links as a footer at the bottom rather than on the side as part of the navigation bar.
+
+
+
+Challenges:
+
+The main challenges I experienced were figuring out how to rotate the navigation bar and making sure my layout was how I envisioned it to look in my prototype. I also had some trouble with aligning specific elements because they would often be off by a few pixels, but that was often because I had forgotten to put my content in a column.
