@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Vivian Yuan: Petfinder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/hw8.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- logo + nav bar -->
+    <div>
+        <a href="index.html" class="topnavPetfinder">vy.</a>
+    </div>
+    <div class="sidenavPetfinder">
+        <a href="index.html" class="active">work / <span class="italic">petfinder</span></a>
+        <a href="about.html">about</a>
+    </div>
+    <div class="centerProject">
+        <img src="assets/petfinderdesc.svg" class="vivianyuan responsive" alt="petfinder ux design, design and pitch a working prototype
+        for an appointment scheduling process for Petfinder to improve the pet adoption and fostering processes">
+        <div class="bottom vivianyuan">
+            <a href="#project1">
+                <input type="image" src="assets/arrowhover1.svg" alt="3 down-facing arrowheads in a row">
+            </a>
+        </div>
+    </div>
+
+    <!-- project background -->
+    <div class="container project1sections" id="project1">
+        <div class="row">
+          <div class="col-2">
+            <h4 class="lightpurple">tools</h4>
+            </div>
+            <div class="col-2">
+                <h4>figma</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h4 class="lightpurple">time</h4>
+            </div>
+            <div class="col">
+                <h4>nov - dec 2021</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h4 class="lightpurple">team</h4>
+            </div>
+            <div class="col">
+                <h4>tia arcot, victor huang, mabel tsado, vivian yuan</h4>
+            </div>
+        </div>
+        <div class="row">
+
+            <!-- anchor link to final prototypes -->
+            <div class="col">
+                <br><a href="#finalprototypes" class="btn btn-primary btn-lg" id="prototypeButton1">jump to final prototypes</a>
+            </div>
+        </div>
+    </div>
+    <div class="container project1sections">
+        <div class="row">
+            <div class="col">
+                <h2 class="darkpurple"><strong>introduction</strong></h2>
+                <p>For this project, we selected a specific domain to focus on and created a responsive web design responding 
+                    to a problem faced by users within that domain. Throughout the project, we conducted user research, 
+                    created storyboards, and created low to high-fidelity prototypes, culminating in a pitch to Petfinder.</p>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col text-right">
+                <h2 class="darkpurple justify-right"><strong>the domain</strong></h2>
+                <p>The domain that we selected was adopting or fostering a pet. We chose this domain because we believed that 
+                    our potential designs could be the most impactful and we would easily be able to interview users around us.</p>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- research -->
+        <div class="row">
+            <div class="col">
+                <h2 class="darkpurple"><strong>the research</strong></h2>
+                <p>To understand what our users’ pain points were, we interviewed 5 people who had adopted or fostered pets 
+                    before and created an affinity diagram and customer journey map based on our interview findings. 
+                    For our interviews, we utilized the directed storytelling method to allow us to understand the users’ 
+                    lived experiences, and we created an interview guide with framing questions and semi-structured followup 
+                    questions to allow us to gain the most information and clarify any of the points that the user brought up.</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col text-center">
+                <img src="assets/affinitydiagram.svg" class="responsive" alt="affinity diagram with voting process">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <img src="assets/customerjourneymap.svg" class="responsive" alt="customer journey map with emotional states at each stage">
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col">
+                <p>After consolidating our research findings, we determined a few pain points:
+                    <ul>
+                        <li>The process of researching for different pets and organizations to adopt/foster from was difficult</li>
+                        <li>The users felt that they did not receive enough information about the pet’s condition and how to 
+                            take care of them after adoption</li>
+                        <li>The users loved meeting with the pets when they were able to, but it wasn’t always a possibility 
+                            due to lack of updated information from the shelter or the location of the shelters being too far away</li>
+                    </ul>
+                <p>We decided to address the <span class="strongBody1">information gap during the pre-adoption research process</span> by creating a virtual 
+                    appointment scheduler for Petfinder, an established platform where users can look for available pets and their 
+                    shelters online. The virtual scheduler allows users to see more effectively how the pet fits into their lives
+                     without having to travel, and shelter can help a greater number of pets get adopted by connecting them with
+                      more users.</p>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- lo-fi and mi-fi prototypes -->
+        <div class="row">
+            <div class="col">
+                <h2 class="darkpurple"><strong>paper and mid-fi prototypes</strong></h2>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col">
+                <p>We started by creating mobile prototypes to focus on the information hierarchy and flow on a smaller screen.
+                     Currently, Petfinder has a card on the pet profile page with a button that says “Introduce Yourself” which 
+                     users can click on to send their information to the shelter that houses the pet. We wanted to create another
+                      button on that card that would allow users to schedule either an in-person or virtual appointment and 
+                      provide flexibility with the available times, as well as create a video chatting interface which would be 
+                      housed on Petfinder to reduce the user’s potential technological constraints.</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row text-center">
+            <div class="col">
+                <img src="assets/paperprototypes.svg" class="responsive" alt="paper prototypes with hand-drawn mockups for mobile">
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col">
+                <p>We conducted an in-class think aloud where we received a few points of feedback:
+                    <ul>
+                        <li>Remove “introduce yourself” button to make it easier to distinguish between button functions</li>
+                        <li>Show shelter location during scheduling flow because it is an important factor</li>
+                        <li>Create a confirmation page before the final appointment details screen</li>
+                        <li>Small wording changes on the final appointment details screen</li>
+                    </ul>
+                <p>We designed a mobile mid-fidelity prototype and incorporated the feedback. We wanted the function to blend in 
+                    with the rest of the Petfinder website, so we used a few key colors taken from their website.</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row text-center">
+            <div class="col">
+                <img src="assets/midfiprototypes.svg" class="responsive" alt="mid-fi prototypes on figma mockups for mobile">
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col">
+                <p>We received the following feedback on the mid-fidelity prototype:
+                    <ul>
+                        <li>Ability to edit an existing appointment</li>
+                        <li>More flexibility in seeing what similar pets there are</li>
+                        <li>Keywords about the pet’s main characteristics</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- final prototypes -->
+        <div class="row">
+            <div class="col">
+                <h2 class="darkpurple" id="finalprototypes"><strong>final prototypes</strong></h2><strong></h2>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col text-center">
+               <h3 class="italic darkpurple">mobile prototype</h3>
+                    <img src="assets/mobileprototype.png" class="responsive" alt="final mobile prototype images with feature highlights">
+                <br>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col">
+                <p>Below is the interactive final prototype for mobile. To restart the prototype from the scheduling appointment
+                     flow, press “r” on the keyboard. The clickable elements are highlighted in blue.</p>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- embedded interactive mobile figma prototype -->
+        <div class="row">
+            <div class="col">
+                <center><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1000" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2o5UEJ66ZKUSqHmedo4PdF%2FPetfinder-Appointment-Scheduling%3Fnode-id%3D178%253A1000%26scaling%3Dscale-down%26page-id%3D159%253A558%26starting-point-node-id%3D178%253A1000%26show-proto-sidebar%3D1" allowfullscreen></iframe></center>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col text-center">
+                <h3 class="italic darkpurple">desktop prototype</h3>
+                    <img src="assets/desktopprototype.png" class="responsive" alt="final desktop prototype images with feature highlights">
+                <br>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col">
+                <p>Below is the final interactive prototype for desktop. To restart the prototype from the scheduling 
+                    appointment flow, press “r” on the keyboard. The clickable elements are highlighted in blue.</p>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- embedded interactive desktop figma prototype -->
+        <div class="row">
+            <div class="col">
+                <center><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1000" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2o5UEJ66ZKUSqHmedo4PdF%2FPetfinder-Appointment-Scheduling%3Fnode-id%3D303%253A1963%26scaling%3Dscale-down%26page-id%3D303%253A1447%26starting-point-node-id%3D303%253A1963%26show-proto-sidebar%3D1" allowfullscreen></iframe></center>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- takeaways after completing the project -->
+        <div class="row">
+            <div class="col">
+                <h2 class="darkpurple"><strong>takeaways</strong></h2>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <p>I learned a lot about user research from this project, and I gained valuable experience from being able
+                     to design for a specific domain and problem that arose from the research that I conducted.
+                    <ul>
+                        <li><span class="strongBody1">Rapid research methods provide quick and valuable insights.</span> 
+                            I had never used directed storytelling before, so it was amazing to see how just a few interviews 
+                            could lead to so many different findings and pain points that we never would have known about. 
+                            Directed storytelling can easily get to the deeper reasons behind why users feel a certain way.</li>
+                        <li><span class="strongBody1">Customer journey maps effectively synthesize user experiences.</span> 
+                            This was my first time creating a customer journey map, and I found it very helpful in making sure 
+                            that we had the users’ emotions, pain points, experiences, and improvement opportunities all in one 
+                            place. This allowed us to easily focus on certain pain points to address in our design.</li>
+                        <li><span class="strongBody1">Mobile-first design is useful when deciding initial layouts and features to include.</span>
+                            This was my first time designing a high-fidelity interactive mobile prototype, and it was interesting
+                             discussing with my group about how we should approach mobile design vs. desktop design as we had 
+                             many discussions about the best way to lay out information and what features we should include based
+                              on the medium that designed for.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- footer with link to next project -->
+        <div class="row">
+            <div class="col text-right">
+                <a href="project2.html">
+                    <img src="assets/project1footer.svg" class="nextpage" alt="link to data dashboard project">
+                </a>
+            </div>
+        </div>
+        <br><br><br>
+
+        <!-- footer with socials -->
+        <div class="row">
+            <div class="col text-center">
+                <a href="https://www.linkedin.com/in/vivian-yuan-cmu" target="_blank" class="responsive socials">
+                    <img src="assets/linkedin petfinder.svg" alt="linkedin icon">
+                </a>
+                <a href="mailto: vyuan@andrew.cmu.edu" target="_blank" class="responsive socials">
+                    <img src="assets/email petfinder.svg" alt="email icon">
+                </a>
+            </div>
+        </div>
+    <br><br>
+    </div>
+</body>
+</html>
