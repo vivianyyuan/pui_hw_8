@@ -3,13 +3,13 @@ Video Link: https://drive.google.com/file/d/1hHdrMFGYQpWlHJZUDE8cFIvY7gmFBbt4/vi
 Figma Link: https://www.figma.com/file/tpEMsZdZwxdU5m380roff0/PUI-Portfolio-Page-Prototype
 
 Portfolio Link: https://pui-hw-8.web.app
-\
+<br><br>
 
 
 ##Portfolio description:
 
 My website is a portfolio about myself and some of the projects that I've done in the past. This would help me in the recruiting process to give recruiters concrete examples of my work and allow them to ask me questions about my work during an interview. I included a short bio of some of my experience and my interests on an about page so that I could give a more personal touch to my portfolio, and I coded out two project pages that describe some of my group projects and the design process from beginning to end. These projects are both group projects, but I am working on coding out the third project, which is mainly a solo project. What makes my portfolio interesting and engaging is my use of visual elements that are bold and really stand out. My target audience is anyone, but with a slight focus on recruiters in the UX design industry. 
-\\
+<br><br>
 
 
 ##How to navigate my portfolio website:
